@@ -1,6 +1,6 @@
 {
   "name": "angular2-tour-of-heroes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "start": "gulp copy-jit && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
@@ -12,17 +12,17 @@
     "start-aot": "npm run aot && npm run rollup && gulp copy-aot && npm run lite"
   },
   "dependencies": {
-    "@angular/common": "~2.4.0",
-    "@angular/compiler": "~2.4.0",
-    "@angular/compiler-cli": "~2.4.0",
-    "@angular/core": "~2.4.0",
-    "@angular/forms": "~2.4.0",
-    "@angular/http": "~2.4.0",
-    "@angular/platform-browser": "~2.4.0",
-    "@angular/platform-browser-dynamic": "~2.4.0",
-    "@angular/platform-server": "~2.4.0",
-    "@angular/router": "~3.4.0",
-    "@angular/upgrade": "~2.4.0",
+    "@angular/common": "~2.4.x",
+    "@angular/compiler": "~2.4.x",
+    "@angular/compiler-cli": "~2.4.x",
+    "@angular/core": "~2.4.x",
+    "@angular/forms": "~2.4.x",
+    "@angular/http": "~2.4.x",
+    "@angular/platform-browser": "~2.4.x",
+    "@angular/platform-browser-dynamic": "~2.4.x",
+    "@angular/platform-server": "~2.4.x",
+    "@angular/router": "~3.4.x",
+    "@angular/upgrade": "~2.4.x",
     "angular-in-memory-web-api": "~0.2.4",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
@@ -49,6 +49,6 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.1",
     "tslint": "^4.1.1",
-    "typescript": "^2.0.10"
+    "typescript": "^2.1.5"
   }
 }
